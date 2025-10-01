@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+docker/build/
+
+# C++/C
+*.o
+*.out
+*.a
+*.d
+*.obj
+*.exe
+
+# Other
+*.swp
+*.bak
+*.tmp
+
+# Ignore motion_imitation submodule metadata
+phenix_bullet_ws/motion_imitation/.git/
